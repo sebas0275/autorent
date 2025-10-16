@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloss.css">
+    <title>Document</title>
+</head>
+<body>
+      <header>
+    <h1>Solicitud de Alquiler</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="vehiculos.html">Vehículos</a>
+    <a href="alquiler.html">Alquiler</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <section>
+    <h2>Rellena tu solicitud</h2>
+    <form>
+      <label>Nombre:</label><br>
+      <input type="text" name="nombre" required><br><br>
+
+      <label>Correo electrónico:</label><br>
+      <input type="email" name="correo" required><br><br>
+
+      <label>Tipo de vehículo:</label><br>
+      <select name="tipo">
+        <option>Sedán</option>
+        <option>SUV</option>
+        <option>Deportivo</option>
+      </select><br><br>
+
+      <label>Fecha de alquiler:</label><br>
+      <input type="date" name="fecha_inicio"><br><br>
+
+      <label>Fecha de devolución:</label><br>
+      <input type="date" name="fecha_fin"><br><br>
+
+      <label>Comentarios:</label><br>
+      <textarea name="comentarios" rows="4" cols="40"></textarea><br><br>
+
+      <button type="submit">Enviar solicitud</button>
+    </form>
+  </section>
+
+</body>
+</html>
